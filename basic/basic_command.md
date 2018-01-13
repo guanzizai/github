@@ -1,2 +1,38 @@
-# 添加
-* command git add [file or dir]
+# 基本命令
+* setting， 所有的配置放在<HOME>/.gitconfig
+```
+git config --global user.email "290169713@qq.com"
+git config --global user.name "hellozhaojian"
+git config --global credential.helper store
+git config --list #  查看
+```
+* checkout
+```
+git clone https://github.com/hellozhaojian/github.git
+```
+* 查看状态
+```
+git status
+```
+* 比较
+```
+git diff
+```
+* 添加
+```
+command git add [file or dir]
+```
+
+* 查看git地址
+```
+git remote -v 
+```
+* 提交
+```
+vi .git/config 修改origin下面的url，类似https://user@....
+git commit -m 'xxx'
+git push https://github.com/hellozhaojian/github master
+
+```
+
+* 新建branches
