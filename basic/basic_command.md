@@ -41,3 +41,11 @@ git push orign master
 ```
 
 * 新建branches
+```
+1. 查看有哪些branch
+   git branch [-a | -r]
+     -a 所有
+     -r 远程
+     默认是本地的
+```
+
