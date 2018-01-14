@@ -42,16 +42,31 @@ git push orign master
 
 * 新建branches
 ```
-1. 查看有哪些branch
+1. 本地查看有哪些branch
    git branch [-a | -r]
      -a 所有
      -r 远程
      默认是本地的
-2. 切换到一个branch中
+2. 本地切换到一个branch中
    git checkout <branch_name>
+
+3. 本地删除一个branch
+   git branch -d xxx
+
+4. 远程删除branch
+   git push origin :branchname
 
 ```
 
+* TAG
+```
+1. 本地创建tag
+   git tag v1.0
+2. 删除tag
+   git tag -d v1.0
+3. 远程删除tag
+   git push origin :refs/tags/v1.0
+```
 * merge
 ```
 1. git merge <other_branch_name>
