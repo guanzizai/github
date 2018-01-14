@@ -57,3 +57,8 @@ git push orign master
 1. git merge <other_branch_name>
    记住这里的branch是本地的branch
 ``` 
+
+* reset
+```
+如果我们认为最近多次修改都是错误的，因此我们需要把这个代码恢复到之前，需要使用这个命令
+```
