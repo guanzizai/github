@@ -30,6 +30,9 @@ git remote -v
 origin https://github.com/user2/repository.git (fetch)
 origin https://github.com/user2/repository.git (push)
 本地关于远程仓库的指代是origin
+
+git remote show origin # 显示详细的信息
+
 ```
 * 提交
 ```
