@@ -36,7 +36,8 @@ origin https://github.com/user2/repository.git (push)
 vi .git/config 修改origin下面的url，类似https://user@....
 git commit -m 'xxx'
 git push https://github.com/hellozhaojian/github master
-
+OR
+git push orign master
 ```
 
 * 新建branches
