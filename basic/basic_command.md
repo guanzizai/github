@@ -47,5 +47,13 @@ git push orign master
      -a 所有
      -r 远程
      默认是本地的
+2. 切换到一个branch中
+   git checkout <branch_name>
+
 ```
 
+* merge
+```
+1. git merge <other_branch_name>
+   记住这里的branch是本地的branch
+``` 
