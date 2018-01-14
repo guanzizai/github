@@ -23,9 +23,13 @@ git diff
 command git add [file or dir]
 ```
 
-* 查看git地址
+* 查看git的远程指代关系
 ```
 git remote -v 
+我们发现
+origin https://github.com/user2/repository.git (fetch)
+origin https://github.com/user2/repository.git (push)
+本地关于远程仓库的指代是origin
 ```
 * 提交
 ```
