@@ -1,7 +1,7 @@
 # 基本命令
 * setting， 所有的配置放在<HOME>/.gitconfig
 ```
-git config --global user.email "290169713@qq.com"
+git config --global user.email "xxxx@qq.com"
 git config --global user.name "hellozhaojian"
 git config --global credential.helper store
 git config --list #  查看
